@@ -1,0 +1,44 @@
+.card {
+    margin: 80px auto;
+    background-color: rgb(234, 240, 242);
+    width: 250px;
+    height: 350px;
+    border-radius: 3%; 
+    margin-top: 40px;
+    
+}
+
+.card img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #686c70;
+    color: #b5e8f0;
+    font-family: Arial, sans-serif;
+}
+    
+h1 {
+    font-size: 40px;
+}
+.card h2 {
+    font-size: 25px;
+    color: #32373b;
+}
+
+.card h3 {
+    color: rgb(27, 68, 107);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.card p {
+    color: rgb(40, 36, 36);
+    font-size: 15px;
+    margin: 2px 0; /* Ajusta el margen superior e inferior */
+  }
+  

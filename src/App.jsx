@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Boton from './components/Botoncito.jsx'
+import Card from './components/cards/card.jsx'
 
 
 function App() {
@@ -13,9 +14,12 @@ function App() {
     <div>
       <h1>Mi primera app en React</h1>
     </div>
-      <Boton text="Click aquí"/>
-      <Boton text="Aquí no"/>
-      <Boton text="Aquí menos"/>
+
+    <Card/>
+    
+      <Boton text="Click aquí" color="aqua"/>
+      <Boton text="Aquí no" color="blue"/>
+      <Boton text="Aquí menos" color="aqua"/>
       
 
     </>
