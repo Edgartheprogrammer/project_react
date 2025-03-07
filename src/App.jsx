@@ -13,27 +13,31 @@ function App() {
       {/* Contenedor de tarjetas con display flex */}
       <div className="card-container">
         <Card
-          image="https://via.placeholder.com/150?text=Compañero+1"
-          title="Carlos"
-          description="Carlos es un desarrollador backend en potencia, siempre dispuesto a ayudar."
+          image="/img/Saitama.jpg"
+          title="Omar"
+          phrase="Tu Coder de confianza"
+          description="Soluciona Bugs de un solo golpe utilizando técnicas de Hacker ético"
+          
         />
 
         <Card
           image="./public/img/mikasa.jpg"
-          title="Lucía"
-          description="Lucía es una increíble diseñadora UX/UI, transformando ideas en experiencias únicas."
+          title="Diana"
+          phrase="Enfocada en soluciones"
+          description="Transforma tus ideas en realidades visuales excepcionales"
         />
 
         <Card
           image="/img/Totoro.jpg"
-          title="David"
-          description="David está aprendiendo JavaScript y React con mucha pasión y dedicación."
+          title="Dante"
+          phrase="Puede codear durmiendo"
+          description="Utiliza un código impecable en varios lenguajes"
         />
       </div>
 
-      {/* Botones */}
+      
       <Boton text="Click aquí" color="aqua" />
-      <Boton text="Aquí no" color="blue" />
+      <Boton text="Aquí no" color="aqua" />
       <Boton text="Aquí menos" color="aqua" />
     </>
   );
