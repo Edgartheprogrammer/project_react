@@ -2,13 +2,18 @@ import { useState } from 'react';
 import './App.css';
 import Boton from './components/Botoncito.jsx';
 import Card from './components/cards/card.jsx';
+import Header from './components/cronometro/Header.jsx';
+import Contador from './components/cronometro/contador.jsx';
 
 function App() {
   return (
     <>
+      
       <div>
+        <Header/>
         <h1>Mis compañeros del Bootcamp</h1>
       </div>
+
 
       {/* Contenedor de tarjetas con display flex */}
       <div className="card-container">
@@ -33,6 +38,8 @@ function App() {
           phrase="Puede codear durmiendo"
           description="Utiliza un código impecable en varios lenguajes"
         />
+
+        
       </div>
 
       
